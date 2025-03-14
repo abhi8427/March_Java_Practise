@@ -15,7 +15,7 @@ public class Fibo {
 		System.out.println("Please enter the terms");
 		Scanner scan = new Scanner(System.in);
 		int term = scan.nextInt();
-		System.out.println("You want to generate Fibonici Series upto "+ term + "th term");
+		System.out.println("You actually want to generate Fibonici Series upto "+ term + "th term");
 		System.out.println("Below is the generated fibonici series");
 		
 		int n1 = 0; int n2 = 1; int n3;
